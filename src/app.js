@@ -39,29 +39,28 @@ function doFizzBuzz(endCount) {
   for (i = 1; i <= endCount; i++) {
     if (isFizzBuzz(i)) {
       console.log(i + "\tprinted Fizz Buzz");
-      appendItem("Fizz Buzz!");
+      doHandlebars(i,"Fizz Buzz!");
     } else if (isBuzz(i)) {
       console.log(i + "\tprinted Buzz");
-      appendItem("Buzz!");
+      doHandlebars(i,"Buzz!");
     } else if (isFizz(i)) {
       console.log(i + "\t printed Fizz");
-      appendItem("Fizz!");
+      doHandlebars(i,"Fizz!");
     }
   }
 }
-function doHandlebars() {
-  var source = FizzBuzz.templates.MyApp();//this comes from precompiled templates
-  var template = Handlebars.compile(source);
-  var context = {title: "My New Post", body: "This is my first post!"};
-  var html = template(context);
-  $("ul.list").append(html);
+function doHandlebars(currentNumber, resultText) {
+  var context = {title: "This Is Number: " + currentNumber , body: resultText};
+  var source = FizzBuzz.templates.MyApp(context);
+  $("ul.list").append(source);
 }
 
 $(document).ready(function () {
   $('#startingNumberButton').click(function () {
+    $("ul.list").empty();
     var count = $("#startingNumber").val();
     alert('Count will try to use: ' + count);
-    if (count.value !== 'undefined' || !isNaN(count)) {
+    if (count.value !== 'undefined' || !isNaN(count)) {//TODO:fix
       doFizzBuzz(count);
     }
     return false;//prevent default

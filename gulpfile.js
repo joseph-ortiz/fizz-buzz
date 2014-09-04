@@ -6,8 +6,9 @@ var handlebars = require('gulp-handlebars');//required for handlebars
 var wrap = require('gulp-wrap');
 var declare = require('gulp-declare');
 var browserSync = require('browser-sync');
+var reload      = browserSync.reload;
 var watch = require('gulp-watch');//TODO:figure how to add gulp watch
-
+var sass        = require('gulp-sass');
 
 // use default task to launch BrowserSync and watch JS files
 gulp.task('default', ['browser-sync'], function () {
@@ -16,6 +17,7 @@ gulp.task('default', ['browser-sync'], function () {
     // all browsers reload after tasks are complete.
     gulp.watch("src/*.js", ['scripts', browserSync.reload]);
      gulp.watch("src/templates/*.hbs", ['templates', browserSync.reload]);
+       gulp.watch("*.scss", ['sass', browserSync.reload]);
 });
 
 // Static server
@@ -49,7 +51,7 @@ gulp.task('templates', function(){
     .pipe(gulp.dest('dist/js/'));
 });
 
-gulp.task('build', ['templates', 'scripts']);
+gulp.task('build', ['templates', 'scripts', 'sass']);
 
 
  gulp.task('watch', ['connect', 'serve'], function () {
@@ -60,7 +62,14 @@ gulp.task('build', ['templates', 'scripts']);
          server.changed(file.path);
      });
 
-     gulp.watch('app/styles/**/*.scss', ['styles']);
+     gulp.watch('*.scss');
     gulp.watch('app/templates/**/*.hbs', ['templates']);
 
  });
+
+
+ gulp.task('sass', function () {
+    gulp.src('*.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('dist/css'));
+});
