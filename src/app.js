@@ -30,34 +30,42 @@ function isFizzBuzz(number) {
   return isFizz(number) && isBuzz(number);
 }
 
-function doFizzBuzz(c) {
+function appendItem(result) {
+  $("ul.list").append("<li>" + result + "</li>");
+}
+
+function doFizzBuzz(endCount) {
   var i;
-  for (i = c; i <= c; i++) {
+  for (i = 1; i <= endCount; i++) {
     if (isFizzBuzz(i)) {
       console.log(i + "\tprinted Fizz Buzz");
+      appendItem("Fizz Buzz!");
     } else if (isBuzz(i)) {
       console.log(i + "\tprinted Buzz");
+      appendItem("Buzz!");
     } else if (isFizz(i)) {
       console.log(i + "\t printed Fizz");
+      appendItem("Fizz!");
     }
   }
 }
-
-$(document).ready(function () {
-  document.getElementById('startingNumberButton').onclick = function () {
-    var count = document.getElementById("startingNumber");
-    alert('Count will try to use: ' + count.value);
-    if (count.value !== 'undefined' || !isNaN(count.value)) {
-      doFizzBuzz(count.value);
-    }
-  };
-
+function doHandlebars() {
   var source = FizzBuzz.templates.MyApp();//this comes from precompiled templates
   var template = Handlebars.compile(source);
-  var context = {
-    title: "My New Post",
-    body: "This is my first post!"
-  };
+  var context = {title: "My New Post", body: "This is my first post!"};
   var html = template(context);
   $("ul.list").append(html);
+}
+
+$(document).ready(function () {
+  $('#startingNumberButton').click(function () {
+    var count = $("#startingNumber").val();
+    alert('Count will try to use: ' + count);
+    if (count.value !== 'undefined' || !isNaN(count)) {
+      doFizzBuzz(count);
+    }
+    return false;//prevent default
+  });
+  //doHandlebars();
+  
 });
