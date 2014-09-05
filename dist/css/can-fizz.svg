@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="743px" height="1051px" viewBox="0 0 743 1051" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>sodaCan 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <ellipse id="background" stroke="#000000" stroke-width="27" fill="#4990E2" sketch:type="MSShapeGroup" cx="371.5" cy="525.5" rx="357.5" ry="511.5"></ellipse>
+        <g id="sodaCan" sketch:type="MSLayerGroup" transform="translate(194.000000, 345.000000)">
+            <g id="bottom" transform="translate(15.000000, 335.000000)" stroke="#000000" stroke-width="8" sketch:type="MSShapeGroup">
+                <ellipse id="Oval-4" cx="142" cy="49" rx="142" ry="49"></ellipse>
+                <ellipse id="top" fill="#D4CDCD" cx="142" cy="49" rx="142" ry="49"></ellipse>
+                <ellipse id="openingLarge" fill="#DACECE" cx="192.02847" cy="49" rx="68.7259786" ry="18.8461538"></ellipse>
+                <ellipse id="openingSmall" fill="#504949" cx="224.370107" cy="49" rx="32.341637" ry="18.8461538"></ellipse>
+            </g>
+            <g id="Can" stroke="#000000" stroke-width="10" fill="#E95B5B" sketch:type="MSShapeGroup">
+                <path d="M11.5540769,46 L10,46 L-0.32614994,91.3865547 L10,378 L10.7219398,378 L10.7219398,378 C18.1465554,401.016579 81.9228622,419 159.5,419 C242.06657,419 309,398.628956 309,373.5 C309,372.194079 308.819229,370.901007 308.464887,369.622997 C310.546591,331.647048 318.909904,173.940359 318.909904,91.3865547 C318.909904,77.65253 311.238374,55.0374057 308.761284,48.0930967 C308.919718,47.2348703 309,46.3702886 309,45.5 C309,20.3710439 242.06657,0 159.5,0 C76.9334299,0 11.54544,20.3710439 11.54544,45.5 C11.54544,45.666878 11.5483236,45.8335462 11.5540769,46 Z" id="Body"></path>
+            </g>
+            <g id="Top" transform="translate(15.000000, 5.000000)" stroke="#000000" stroke-width="8" sketch:type="MSShapeGroup">
+                <ellipse id="Oval-4" cx="142" cy="49" rx="142" ry="49"></ellipse>
+                <ellipse id="top" fill="#D4CDCD" cx="142" cy="49" rx="142" ry="49"></ellipse>
+                <ellipse id="openingLarge" fill="#DACECE" cx="192.02847" cy="49" rx="68.7259786" ry="18.8461538"></ellipse>
+                <ellipse id="openingSmall" fill="#504949" cx="224.370107" cy="49" rx="32.341637" ry="18.8461538"></ellipse>
+            </g>
+            <g id="Top-2" transform="translate(15.000000, 5.000000)" stroke="#000000" stroke-width="8" sketch:type="MSShapeGroup">
+                <ellipse id="Oval-4" cx="142" cy="40" rx="142" ry="40"></ellipse>
+                <ellipse id="top" fill="#D4CDCD" cx="142" cy="40" rx="142" ry="40"></ellipse>
+                <ellipse id="openingLarge" fill="#DACECE" cx="192.02847" cy="40" rx="68.7259786" ry="15.3846154"></ellipse>
+                <ellipse id="openingSmall" fill="#504949" cx="224.370107" cy="40" rx="32.341637" ry="15.3846154"></ellipse>
+            </g>
+            <g id="buzzLogo" transform="translate(26.000000, 139.000000)">
+                <ellipse id="Oval-7" stroke="#000000" stroke-width="6" fill="#50E3C2" sketch:type="MSShapeGroup" cx="129.455028" cy="80.5" rx="97.4550277" ry="76.5"></ellipse>
+                <ellipse id="Oval-8" stroke="#000000" stroke-width="6" fill="#507AE3" sketch:type="MSShapeGroup" transform="translate(129.500000, 78.000000) rotate(-11.000000) translate(-129.500000, -78.000000) " cx="129.5" cy="78" rx="80.5" ry="64"></ellipse>
+                <polygon id="Triangle-1" stroke="#000000" stroke-width="4" fill="#EFC775" sketch:type="MSShapeGroup" points="101 56 130 105 72 105 "></polygon>
+                <polygon id="Triangle-2" stroke="#000000" stroke-width="4" fill="#EFC775" sketch:type="MSShapeGroup" points="161.5 70 182 105 141 105 "></polygon>
+                <polygon id="Triangle-2" stroke="#000000" stroke-width="4" fill="#EFC775" sketch:type="MSShapeGroup" transform="translate(149.312773, 46.810723) rotate(-289.000000) translate(-149.312773, -46.810723) " points="149.312773 26.3042977 178.312773 67.317149 120.312773 67.317149 "></polygon>
+                <text id="-Buzz" sketch:type="MSTextLayer" font-family="Hiragino Kaku Gothic Std" font-size="120" font-weight="633" fill="#000000">
+                    <tspan x="-0.177269213" y="238.599849"> </tspan>
+                    <tspan x="-0.177269213" y="418.599849">Buzz</tspan>
+                </text>
+            </g>
+        </g>
+        <ellipse id="Oval-21" stroke="#979797" fill-opacity="0.930000007" fill="#EFEDED" sketch:type="MSShapeGroup" cx="494.5" cy="298.5" rx="30.5" ry="33.5"></ellipse>
+        <g id="bubbleGroup" sketch:type="MSLayerGroup" transform="translate(441.000000, 197.000000)" stroke="#979797" fill="#EFEDED" fill-opacity="0.930000007">
+            <ellipse id="large-bubble" sketch:type="MSShapeGroup" cx="53.5" cy="101.5" rx="30.5" ry="33.5"></ellipse>
+            <circle id="Oval-22" sketch:type="MSShapeGroup" cx="52.5" cy="11.5" r="11.5"></circle>
+            <circle id="Oval-23" sketch:type="MSShapeGroup" cx="22.5" cy="22.5" r="11.5"></circle>
+            <circle id="Oval-24" sketch:type="MSShapeGroup" cx="61.5" cy="45.5" r="11.5"></circle>
+            <circle id="small-Bubble" sketch:type="MSShapeGroup" cx="11.5" cy="56.5" r="11.5"></circle>
+        </g>
+        <g id="bubbleGroup-2" sketch:type="MSLayerGroup" transform="translate(440.104623, 147.853532) rotate(-185.000000) translate(-440.104623, -147.853532) translate(371.104623, 102.353532)" stroke="#979797" fill="#EFEDED" fill-opacity="0.930000007">
+            <ellipse id="large-bubble" sketch:type="MSShapeGroup" cx="30.0285245" cy="36.73429" rx="30.5" ry="33.5"></ellipse>
+            <circle id="Oval-22" sketch:type="MSShapeGroup" cx="76.5" cy="11.5" r="11.5"></circle>
+            <circle id="Oval-23" sketch:type="MSShapeGroup" cx="76.5" cy="79.5" r="11.5"></circle>
+            <circle id="Oval-24" sketch:type="MSShapeGroup" cx="88" cy="45" r="11.5"></circle>
+            <circle id="small-Bubble" sketch:type="MSShapeGroup" cx="126.776" cy="33.5" r="11.5"></circle>
+        </g>
+    </g>
+</svg>

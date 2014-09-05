@@ -31,7 +31,7 @@ function isFizzBuzz(number) {
 }
 
 function appendItem(result) {
-  $("ul.list").append("<li>" + result + "</li>");
+  $("ul.list").append("<li class='item'>" + result + "</li>"); 
 }
 
 function doFizzBuzz(endCount) {

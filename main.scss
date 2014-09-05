@@ -1,19 +1,55 @@
-$blue: #3bbfce;
-$margin: 16px;
+$deepRed: #8C1F1B;
 $white: #F2F3F4;
+$cocaColaRed: #DC2718;
+$darkBrown: #27211A;
+$green: #038642;
+$iconRed: #E95B5B;
+
 
 body{
-	background-color: $white;
+	background-color: $deepRed;
+}
+
+section.input-section{
+	text-align:center;
+}
+h2.title{
+	text-align: center;
 }
 
 ul{
 	list-style:none;
+	margin: auto 0;
+	padding: 10px;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,.1);
+	background: $white;
+	z-index: 2;
+	position: relative;
+	margin: 30px auto;
+	max-width: 850px;
+	text-align: center
 }
 
 .list{
-	background-color: #B7DECF;
+	background-color: $white;
+}
+
+li.item{
+	background-color: $white;
 }
 
 li + li{
 	border-top: 1px solid black;
+}
+
+.fizz
+{
+	background-image: url(can-fizz.svg);
+	 display: block;
+  text-indent: -9999px;
+  width: 100;
+  height: 100;
+  background-repeat: none;
+  //background: url(kiwi.svg);
+  background-size: 100px 82px;
 }
