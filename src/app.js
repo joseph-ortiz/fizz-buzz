@@ -36,6 +36,10 @@ function appendItem(result) {
 
 function doFizzBuzz(endCount) {
   var i;
+  if(parseInt(endCount) === 'NaN'){
+    alert("Please enter a valid number");
+    return  false;
+  }
   for (i = 1; i <= endCount; i++) {
     if (isFizzBuzz(i)) {
       console.log(i + "\tprinted Fizz Buzz");
